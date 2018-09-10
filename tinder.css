@@ -398,7 +398,7 @@ p {
 
 .modal-footer>:not(:last-child) {
   position: relative;
-  top: -58px;
+  top: -55px;
   margin-right: 3.5rem;
 }
 
@@ -467,7 +467,7 @@ p {
   border-color: white; 
   position: relative;
   left: -50px;
-  bottom: 58.5px;
+  bottom: 55.5px;
 }
 
 .FOMO-description {
@@ -498,4 +498,20 @@ p {
   position: relative;
   left: -17px;
   bottom: 18px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#arrow-down-btn {
+  position: relative;
+  top: -837px;
+  left: 310px;
+}
+
+#OK {
+  position: relative;
+  top: -55px;
+  left: -48px;
 }
