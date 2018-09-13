@@ -4,7 +4,7 @@
   }
 
   body {
-    background-color: #000000;
+    background-color: #FAFAFA;
   }
 
   #container-one {
@@ -527,3 +527,255 @@ a:hover {
 .modal-backdrop.in {
   opacity: 0.5;
 }
+
+
+#profile-top {
+  width: 375px;
+}
+
+#portfolio-description {
+  width: 375px;
+}
+
+/* #panel-height {
+  height: 30px;
+} */
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      #profile-top {
+        width: 1495px;
+        position: relative;
+        right: 0px;
+      }
+
+      #arrow-down-btn {
+        height: 190px;
+        position: relative;
+        left: 1225px;
+        top: -3339px;
+      }
+
+      #container-one {
+        width: 1498px;
+        position: relative;
+        left: 188px;
+        background-color: white;
+        height: 243vh;
+      }
+
+      #social-icons {
+        font-size: 60px;
+        width: 480px;
+        position: relative;
+        top: 50px;
+        left: 68px;
+      }
+
+      #portfolio-description, .panel, #resume {
+        position: relative;
+        top: 170px;
+      }
+
+      .fa-envelope, .fa-linkedin-in, .fa-github, .fa-twitter {
+        margin-right: 47px;
+      }
+
+      #portfolio-description {
+        width: 1495px;
+      }
+
+      .panel {
+        position: relative;
+        top: -910px;
+        height: 434px;
+        width: 434px;
+        left: 60px;
+      }
+    
+      .middle {
+        position: relative;
+        top: -1344px;
+        left: -530px;
+      }
+
+      .right {
+        position: relative;
+        top: -1344px;
+        left: 377px;
+      }
+
+
+      .bottom-left {
+        position: relative;
+        top: -866px;
+      }
+
+      .bottom-middle {
+        position: relative;
+        top: -1300px;
+        left: -530px;
+      }
+
+      .bottom-right {
+        position: relative;
+        top: -1300px;
+        left: 377px; 
+      }
+
+      .refer-clay-plz {
+        width: 1498px;
+        position: relative;
+        left: -1032px;
+        top: 245px;
+      }
+
+      #resume {
+        width: 410px;
+        height: 166px;
+        position: relative;
+        top: -815px;
+        left: 1031px;
+        border-radius: 25px;
+      }
+
+      #super, #dislike, #like {
+        height: 420px;
+      }
+
+      #likes-options {
+        width: 1496px;
+        top: 2876px;
+        height: 375px;
+      }
+
+      #super {
+        left: 555px;
+        height: 380px;
+        position: relative;
+        left: 561px;
+        z-index: 1;
+        top: -83px;
+      }
+
+      #dislike {
+        position: relative;
+        left: -143px;
+        top: -79px;
+      }
+
+      #like {
+        position: relative;
+        left: 36px;
+        top: -79px;
+      }
+
+      .resume {
+        height: 53px;
+        position: relative;
+        top: 58px;
+        left: 78px;
+      }
+
+      .overlay {
+        border-radius: 30px;
+      }
+
+      .redcup-overlay-img {
+        height: 110px;
+      }
+
+      .fomo-overlay-img {
+        height: 70px;
+      }
+
+      .PHLY-overlay-img {
+        height: 70px;
+      }
+
+      .STEM-overlay-img {
+        height: 70px;
+      }
+
+      .TRAVEL-overlay-img {
+        height: 66px;
+      }
+
+      .TUNEZ-overlay-img {
+        height: 66px;
+      }
+
+      .modal-content {
+        width: 1380px;
+        height: 900px;
+        position: relative;
+        right: 88%;
+        top: 878px;
+        border-radius: 45px;
+      }
+
+      .RC-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+
+      .visit-modal-btn {
+        height: 49px;
+        position: relative;
+        right: 214px;
+        bottom: 17px;
+      } 
+
+      .cancel-modal-btn {
+        height: 49px;
+        position: relative;
+        right: 580px;
+        bottom: 17px;
+      }
+
+      .FOMO-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+
+      .PHLY-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+
+      .STEM-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+
+      .TRAVEL-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+
+      .TUNEZ-description {
+        height: 774px;
+        position: relative;
+        top: 61px;
+      }
+    }
+
+  
+
+
+
+
+
