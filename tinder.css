@@ -706,6 +706,7 @@ a:hover {
         height: 434px;
         width: 434px;
         left: 60px;
+        z-index: 5;
       }
     
       .middle {
@@ -713,6 +714,7 @@ a:hover {
         top: -1399px;
         left: -868px;
         width: 283px;
+        z-index: 5;
       }
 
       .right {
@@ -720,6 +722,7 @@ a:hover {
         top: -1397px;
         left: -279px;
         width: 283px;
+        z-index: 5;
       }
 
 
@@ -728,6 +731,7 @@ a:hover {
         top: -1089px;
         width: 283px;
         left: 40px;
+        z-index: 5;
       }
 
       .bottom-middle {
@@ -735,13 +739,15 @@ a:hover {
         top: -1523px;
         left: -868px;
         width: 283px;
+        z-index: 5;
       }
 
       .bottom-right {
         position: relative;
         top: -1523px;
         left: -279px;
-        width: 283px; 
+        width: 283px;
+        z-index: 5; 
       }
 
       .refer-clay-plz {
@@ -768,7 +774,7 @@ a:hover {
         width: 982px;
         top: 1847px;
         height: 274px;
-        z-index: 5;
+        z-index: 6;
       }
 
       #super {
@@ -802,31 +808,84 @@ a:hover {
       }
 
       .overlay {
-        border-radius: 30px;
+        border-radius: 20px;
+      }
+
+      .btn {
+        width: 283px;
+        left: -20px;
+        top: -53px;
+        height: 284px;
       }
 
       .redcup-overlay-img {
-        height: 110px;
+        height: 77px;
+      }
+
+
+      .pink {
+        width: 283px;
+        height: 228px;
+        border-radius: 20px;
+        top: 58px;
+      }
+
+      .blue {
+        width: 283px;
+        height: 228px;
+        border-radius: 20px;
+        top: 58px;
+      }
+
+      .orange {
+        width: 283px;
+        height: 228px;
+        border-radius: 20px;
+        top: 57px;
+      }
+
+      .black {
+        width: 283px;
+        height: 228px;
+        border-radius: 20px;
+        top: 57px;
+      }
+
+      .turquoise {
+        width: 283px;
+        height: 228px;
+        border-radius: 20px;
+        top: 57px;
       }
 
       .fomo-overlay-img {
-        height: 70px;
+        height: 47px;
+        top: 114px;
+        position: relative;
       }
 
       .PHLY-overlay-img {
-        height: 70px;
+        height: 54px;
+        position: relative;
+        bottom: -111px;
       }
 
       .STEM-overlay-img {
-        height: 70px;
+        height: 54px;
+        position: relative;
+        bottom: -111px;
       }
 
       .TRAVEL-overlay-img {
-        height: 66px;
+        height: 49px;
+        position: relative;
+        bottom: -111px;
       }
 
       .TUNEZ-overlay-img {
-        height: 66px;
+        height: 54px;
+        position: relative;
+        bottom: -111px;
       }
 
       .modal-content {
@@ -834,7 +893,7 @@ a:hover {
         height: 900px;
         position: relative;
         right: 88%;
-        top: 878px;
+        top: 8px;
         border-radius: 45px;
       }
 
