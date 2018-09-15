@@ -775,6 +775,7 @@ a:hover {
         top: 1847px;
         height: 274px;
         z-index: 6;
+        position: fixed;
       }
 
       #super {
