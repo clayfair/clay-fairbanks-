@@ -771,8 +771,8 @@ a:hover {
       }
 
       #likes-options {
+        bottom: 0px;
         width: 982px;
-        top: 1847px;
         height: 274px;
         z-index: 6;
         position: fixed;
