@@ -611,6 +611,20 @@ a:hover {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
 
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    
+      html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+
       .my-thoughts {
         position: relative;
         top: 229px;
@@ -772,7 +786,7 @@ a:hover {
 
       #likes-options {
         bottom: 0px;
-        width: 982px;
+        width: 100%;
         height: 274px;
         z-index: 6;
         position: fixed;
