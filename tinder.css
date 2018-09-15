@@ -3,15 +3,30 @@
     padding: 0;
   }
 
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
   body {
     background-color: #FAFAFA;
+  }
+
+  .my-thoughts {
+    position: relative;
+    top: -36px;
+    right: 254px;
   }
 
   #container-one {
     position: absolute;
     left: 50%;
     margin-left: -187.5px;
-    height: 157vh;
+    height: 170vh;
     background-color: white;
   }
 
@@ -38,19 +53,56 @@
     top: 0px;
   }
 
+  
+  #gmail {
+    position: relative;
+    bottom: 66px;
+    left: 70px;
+  }
 
-  .email {
-    background-color: white;
+  #linkedin {
+    position: relative;
+    bottom: 83px;
+    left: 90px;
+  }
+
+  #GitHub {
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+  }
+
+  p {
+    z-index: 4;
+    color: #3C3CFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p:hover {
+    z-index: 4;
+    color: #9D62FE;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ 
+
+  /* .email {
+    position: relative;
+    bottom: 400px;
+    z-index: 4;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: white;
     height: 13px;
     position: relative;
     top: 10px;
     left: 15px;
-    color: orange;
-  }
-
+    color: orange; */
+  
+/* 
   .email:hover {
     color: red;
-  }
+  } */
 
   /* SOCIAL MEDIA  https://fontawesome.com/icons/linkedin-in?style=brands */ 
 
@@ -333,7 +385,10 @@ span {
 
 
 
-
+#portfolio-body {
+  position: relative;
+  bottom: 119px;
+}
 
 .referme {
   position: relative;
@@ -342,7 +397,7 @@ span {
 
 #portfolio-description {
   position: relative;
-  top: 42px;
+  top: -80px;
 }
 
 #resume {
@@ -352,16 +407,16 @@ span {
   background-color: #FD5069;
   z-index: 3;
   position: relative;
-  bottom: 210px;
+  bottom: 328px;
   left: 254px;
 }
 
-p {
+/* p {
   position: relative;
   bottom: 98px;
   left: 26px;
   color: white;
-}
+} */
 
 .resume {
   position: relative;
@@ -506,7 +561,7 @@ a:hover {
 
 #arrow-down-btn {
   position: relative;
-  top: -837px;
+  top: -1067px;
   left: 310px;
 }
 
@@ -541,6 +596,11 @@ a:hover {
   height: 30px;
 } */
 
+#status-bar {
+  width: 375px;
+}
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  responsive
@@ -551,10 +611,42 @@ a:hover {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
 
+      .my-thoughts {
+        position: relative;
+        top: 229px;
+        width: 980px;
+        left: -665px;
+      }
+
+      #status-bar {
+        display: none;
+      }
+
       #profile-top {
-        width: 1495px;
+        width: 979px;
         position: relative;
         right: 0px;
+      }
+
+      #gmail {
+        position: relative;
+        bottom: 175px;
+        left: 183px;
+        font-size: 43px;
+      }
+      
+      #linkedin {
+        position: relative;
+        bottom: 195px;
+        left: 234px;
+        font-size: 43px;
+      }
+
+      #GitHub {
+        position: relative;
+        bottom: 215px;
+        left: 207px;
+        font-size: 43px;
       }
 
       #arrow-down-btn {
@@ -569,7 +661,7 @@ a:hover {
         position: relative;
         left: 188px;
         background-color: white;
-        height: 243vh;
+        height: 190vh;
       }
 
       #social-icons {
@@ -590,7 +682,22 @@ a:hover {
       }
 
       #portfolio-description {
-        width: 1495px;
+        width: 980px;
+        position: relative;
+        top: -160px;
+        z-index: 4;
+      }
+
+      #portfolio-body {
+        position: relative;
+        top: 100px;
+      }
+
+      .panel-height {
+        position: relative;
+        right: 20px;
+        width: 283px;
+        bottom: 55px;
       }
 
       .panel {
@@ -603,48 +710,54 @@ a:hover {
     
       .middle {
         position: relative;
-        top: -1344px;
-        left: -530px;
+        top: -1399px;
+        left: -868px;
+        width: 283px;
       }
 
       .right {
         position: relative;
-        top: -1344px;
-        left: 377px;
+        top: -1397px;
+        left: -279px;
+        width: 283px;
       }
 
 
       .bottom-left {
         position: relative;
-        top: -866px;
+        top: -1089px;
+        width: 283px;
+        left: 40px;
       }
 
       .bottom-middle {
         position: relative;
-        top: -1300px;
-        left: -530px;
+        top: -1523px;
+        left: -868px;
+        width: 283px;
       }
 
       .bottom-right {
         position: relative;
-        top: -1300px;
-        left: 377px; 
+        top: -1523px;
+        left: -279px;
+        width: 283px; 
       }
 
       .refer-clay-plz {
-        width: 1498px;
+        width: 980px;
         position: relative;
-        left: -1032px;
-        top: 245px;
+        left: -665px;
+        top: 165px;
       }
 
       #resume {
-        width: 410px;
-        height: 166px;
+        width: 273px;
+        height: 107px;
         position: relative;
-        top: -815px;
-        left: 1031px;
-        border-radius: 25px;
+        top: -1102px;
+        left: 663px;
+        border-radius: 16px;
       }
 
       #super, #dislike, #like {
@@ -652,37 +765,40 @@ a:hover {
       }
 
       #likes-options {
-        width: 1496px;
-        top: 2876px;
-        height: 375px;
+        width: 982px;
+        top: 1847px;
+        height: 274px;
+        z-index: 5;
       }
 
       #super {
         left: 555px;
-        height: 380px;
+        height: 256px;
         position: relative;
-        left: 561px;
+        left: 360px;
         z-index: 1;
-        top: -83px;
+        top: -39px;
       }
 
       #dislike {
         position: relative;
-        left: -143px;
-        top: -79px;
+        left: -111px;
+        top: -39px;
+        height: 284px;
       }
 
       #like {
         position: relative;
-        left: 36px;
-        top: -79px;
+        left: -8px;
+        top: -39px;
+        height: 284px;
       }
 
       .resume {
-        height: 53px;
+        height: 35px;
         position: relative;
-        top: 58px;
-        left: 78px;
+        top: 39px;
+        left: 53px;
       }
 
       .overlay {
