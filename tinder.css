@@ -776,6 +776,7 @@ a:hover {
         height: 274px;
         z-index: 6;
         position: fixed;
+        -webkit-backface-visibility: hidden;
       }
 
       #super {
