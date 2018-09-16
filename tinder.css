@@ -58,18 +58,21 @@
     position: relative;
     bottom: 66px;
     left: 70px;
+    width: 216px;
   }
 
   #linkedin {
     position: relative;
     bottom: 83px;
     left: 90px;
+    width: 68px;
   }
 
   #GitHub {
     position: relative;
     bottom: 100px;
     left: 80px;
+    width: 62px;
   }
 
   p {
@@ -336,10 +339,11 @@ span {
 
 #dislike {
   position: absolute;
-  left: 18%;
-  bottom: 11px;
+  left: 21%;
+  bottom: 19px;
   -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
   filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+  height: 76px;
 } 
 
 /* #super-like {
@@ -349,10 +353,11 @@ span {
 
 #like {
   position: absolute;;
-  left: 56%;
-  bottom: 11px;
+  left: 58%;
+  bottom: 19px;
   -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
   filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+  height: 76px;
   /* -webkit-filter: drop-shadow(12px 12px 25px rgba(255, 255, 255, 0.5));
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -361,10 +366,11 @@ span {
 
 #super {
   position: absolute;
-  left: 38%;
-  bottom: 16px;
+  left: 40.75%;
+  bottom: 23px;
   -webkit-filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
   filter: drop-shadow(20px 20px 20px rgb(255, 255, 255));
+  height: 68px;
 }
 
 
@@ -647,6 +653,7 @@ a:hover {
         bottom: 175px;
         left: 183px;
         font-size: 43px;
+        width: 585px;
       }
       
       #linkedin {
@@ -654,6 +661,7 @@ a:hover {
         bottom: 195px;
         left: 234px;
         font-size: 43px;
+        width: 181px;
       }
 
       #GitHub {
@@ -661,13 +669,14 @@ a:hover {
         bottom: 215px;
         left: 207px;
         font-size: 43px;
+        width: 163px;
       }
 
       #arrow-down-btn {
         height: 125px;
         position: relative;
         left: 806px;
-        top: -3017px;
+        top: -3012px;
       }
 
       #container-one {
@@ -792,7 +801,7 @@ a:hover {
         margin-bottom: 0px;
         bottom: 0px;
         width: 100%;
-        height: 244px;
+        height: 220px;
         z-index: 7;
         position: fixed;
         -webkit-backface-visibility: hidden;
@@ -800,25 +809,25 @@ a:hover {
 
       #super {
         left: 555px;
-        height: 256px;
+        height: 193px;
         position: relative;
-        left: 360px;
+        left: 392px;
         z-index: 1;
-        top: -49px;
+        top: -34px;
       }
 
       #dislike {
         position: relative;
-        left: -111px;
-        top: -49px;
-        height: 284px;
+        left: -10px;
+        top: -34px;
+        height: 214px;
       }
 
       #like {
         position: relative;
-        left: -8px;
-        top: -49px;
-        height: 284px;
+        left: 157px;
+        top: -34px;
+        height: 214px;
       }
 
       .resume {
