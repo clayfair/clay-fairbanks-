@@ -664,10 +664,10 @@ a:hover {
       }
 
       #arrow-down-btn {
-        height: 190px;
+        height: 125px;
         position: relative;
-        left: 1225px;
-        top: -3339px;
+        left: 806px;
+        top: -3017px;
       }
 
       #container-one {
@@ -971,6 +971,17 @@ a:hover {
         position: relative;
         top: 28px;
       }
+
+      .welcome-cancel {
+        position: relative;
+        left: -557px;
+      }
+
+      .welcome-okay {
+        position: relative;
+        left: -217px;
+      }
+
     }
 
   
