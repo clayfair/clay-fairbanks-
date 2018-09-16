@@ -791,7 +791,7 @@ a:hover {
         margin-bottom: 0px;
         bottom: 0px;
         width: 100%;
-        height: 274px;
+        height: 244px;
         z-index: 7;
         position: fixed;
         -webkit-backface-visibility: hidden;
@@ -803,20 +803,20 @@ a:hover {
         position: relative;
         left: 360px;
         z-index: 1;
-        top: -39px;
+        top: -49px;
       }
 
       #dislike {
         position: relative;
         left: -111px;
-        top: -39px;
+        top: -49px;
         height: 284px;
       }
 
       #like {
         position: relative;
         left: -8px;
-        top: -39px;
+        top: -49px;
         height: 284px;
       }
 
