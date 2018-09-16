@@ -675,7 +675,7 @@ a:hover {
         position: relative;
         left: 188px;
         background-color: white;
-        height: 190vh;
+        height: 200vh;
       }
 
       #social-icons {
@@ -778,6 +778,7 @@ a:hover {
         top: -1102px;
         left: 663px;
         border-radius: 16px;
+        z-index: 6;
       }
 
       #super, #dislike, #like {
@@ -909,62 +910,66 @@ a:hover {
       }
 
       .modal-content {
-        width: 1380px;
-        height: 900px;
+        width: 897px;
+        height: 583px;
         position: relative;
-        right: 88%;
-        top: 8px;
-        border-radius: 45px;
+        right: 40%;
+        top: 527px;
+        border-radius: 30px;
       }
 
       .RC-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
 
       .visit-modal-btn {
-        height: 49px;
+        height: 34px;
         position: relative;
-        right: 214px;
-        bottom: 17px;
+        right: 103px;
+        bottom: 0px;
       } 
 
       .cancel-modal-btn {
-        height: 49px;
+        height: 34px;
         position: relative;
-        right: 580px;
-        bottom: 17px;
+        right: 456px;
+        bottom: 1px;
+      }
+
+      .cancel-button {
+        width: 1px;
       }
 
       .FOMO-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
 
       .PHLY-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
 
       .STEM-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
 
       .TRAVEL-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
 
       .TUNEZ-description {
-        height: 774px;
+        height: 503px;
         position: relative;
-        top: 61px;
+        top: 28px;
       }
     }
 
