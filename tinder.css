@@ -13,7 +13,7 @@
 }
 
   body {
-    background-color: #FAFAFA;
+    background-color: #F2F2F2;
   }
 
   .my-thoughts {
@@ -26,7 +26,7 @@
     position: absolute;
     left: 50%;
     margin-left: -187.5px;
-    height: 170vh;
+    height: 190vh;
     background-color: white;
   }
 
@@ -989,6 +989,10 @@ a:hover {
       .welcome-okay {
         position: relative;
         left: -217px;
+      }
+
+      .cancel-button {
+        background-color: red;
       }
 
     }
